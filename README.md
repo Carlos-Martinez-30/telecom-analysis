@@ -4,13 +4,13 @@ sprint7-final-project
 ## 🧠 Objetivo del análisis
 El propósito de este proyecto es analizar patrones de uso y segmentar clientes de la empresa ConnectaTel, con el fin de identificar oportunidades comerciales, optimizar la oferta de planes y mejorar la retención de usuarios.
 
-## Los datasets utilizados
+## 📄 Los datasets utilizados
 plans.csv → información de los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra)
 users.csv → información de los clientes (edad, ciudad, fecha de registro, plan, churn)
 usage.csv → detalle del uso real de los servicios (llamadas y mensajes)
 usage_join → Dataset resultante de la unión y limpieza de los anteriores, utilizado para el análisis final.
 
-##  Etapas del análisis
+## 📊 Etapas del análisis
 Limpieza de datos → 
 Detección y corrección de valores nulos o sentinelas (-999).
 Normalización de columnas como age y city.
